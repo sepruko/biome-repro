@@ -5,3 +5,11 @@
  * Once you have a minimal reproduction, commit it and push it to a public
  * GitHub repo.
  */
+
+export type MyType = {
+	[index: string]: string;
+};
+
+export type MyOtherType = {
+	readonly [index: string]: string;
+};
