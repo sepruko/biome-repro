@@ -14,6 +14,14 @@ export type MyOtherType = {
 	readonly [index: string]: string;
 };
 
+export interface MyInterface {
+	[index: string]: string;
+}
+
+export interface MyOtherInterface {
+	readonly [index: string]: string;
+}
+
 export class MyClass {
 	[index: string]: string;
 }
