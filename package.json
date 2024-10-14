@@ -1,0 +1,9 @@
+{
+	"name": "@sepruko/biome-repro",
+	"version": "0.0.1",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3"
+	},
+	"private": true
+}
